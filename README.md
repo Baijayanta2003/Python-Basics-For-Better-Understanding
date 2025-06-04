@@ -140,7 +140,7 @@ In [19]: touch 1.py
     touch 1.py
            ^
 SyntaxError: invalid decimal literal
-
+# use ! sign as it's cmd command.
 
 In [20]: ! touch 1.py
 
