@@ -88,6 +88,46 @@ print(os.path.splitext(path))  # ('/home/user/file', '.txt')
 
 ## See this terminal snippet to illustrate this in detail. 
 ```bash
+(myenv) baijayanta:~$ ipython
+Python 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 8.31.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: import os
+
+In [2]: print(os.getcwd())  # Returns current working directory
+/home/baijayanta
+
+In [3]: # make a new directory named say python_basics
+
+In [4]: os.path.exists('python_basics') # check whether the directory exists
+Out[4]: True
+
+In [5]: # remove it and then make again
+
+In [6]: os.rmdir('python_basics') # remove the directory
+
+In [7]: # check again
+
+In [8]: os.path.exists('python_basics') # check whether the directory exists
+Out[8]: False
+
+In [9]: # create now 
+
+In [10]: os.mkdir('python_basics') # make the directory
+
+In [11]: os.path.exists('python_basics') # check whether the directory exists
+Out[11]: True
+
+In [12]: # change the directory to 'python_basics'
+
+In [13]: os.chdir("python_basics")  # Change current working directory
+
+In [14]: # print the current directory to see the changes
+
+In [15]: print(os.getcwd())  # Returns current working directory
+/home/baijayanta/python_basics
+
 
 ```
 
