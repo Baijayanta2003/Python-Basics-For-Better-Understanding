@@ -9,9 +9,72 @@ The `os` module in Python provides a way to interact with the operating system â
 Here are the snippets to guide you through : 
 
 
+` Importing the Module:`
+
+```python
 
 
+```
+```python
 
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
+```python
+
+
+```
 ## Data types and more
 The basic data types in python are - 
 - Integer
