@@ -87,7 +87,7 @@ print(os.path.splitext(path))  # ('/home/user/file', '.txt')
 ---
 
 ## See this terminal snippet to illustrate this in detail. 
-```bash
+```python
 (myenv) baijayanta:~$ ipython
 Python 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
 Type 'copyright', 'credits' or 'license' for more information
@@ -128,7 +128,77 @@ In [14]: # print the current directory to see the changes
 In [15]: print(os.getcwd())  # Returns current working directory
 /home/baijayanta/python_basics
 
+In [16]: # print all the files and directory in the current directory
 
+In [17]: print(os.listdir())  # Lists items in current directory
+[]
+
+In [18]: # it's empty make some files
+
+In [19]: touch 1.py
+  Cell In[19], line 1
+    touch 1.py
+           ^
+SyntaxError: invalid decimal literal
+
+
+In [20]: ! touch 1.py
+
+In [21]: print(os.listdir())  # Lists items in current directory
+['1.py']
+
+In [22]: os.makedirs('parent/child')  # Create nested directories
+
+In [23]: print(os.listdir())  # Lists items in current directory
+['parent', '1.py']
+
+In [24]: # check whether a file exists
+
+In [25]: ! touch parent/new.py
+
+In [26]: os.path.exists('parent/new.py')
+Out[26]: True
+
+In [27]: os.path.isfile('parent/new.py')
+Out[27]: True
+
+In [28]: os.path.isdir('parent/new.py')
+Out[28]: False
+
+In [29]: os.path.isdir('parent/')
+Out[29]: True
+
+In [30]: print(os.listdir())  # Lists items in current directory
+['parent', '1.py']
+
+In [31]: os.rename('1.py','2.py') # rename
+
+In [32]: print(os.listdir())  # Lists items in current directory
+['parent', '2.py']
+
+In [33]: # remove the file
+
+In [34]: os.remove('2.py')
+
+In [35]: print(os.listdir())  # Lists items in current directory
+['parent']
+
+In [36]: path = '/home/baijayanta/python_basics/parent/new.py'
+
+In [37]: print(os.path.basename(path))  # gives filename 'new.py'
+new.py
+
+In [38]: print(os.path.dirname(path))   # gives the directory
+/home/baijayanta/python_basics/parent
+
+In [39]: print(os.path.split(path))   # gives the list with 2 elements 1st one is path and 2nd
+    ...:  is file name
+('/home/baijayanta/python_basics/parent', 'new.py')
+
+In [40]: # exit
+
+In [41]: exit
+(myenv) baijayanta:~$
 ```
 
 ---
