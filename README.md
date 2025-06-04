@@ -221,18 +221,3 @@ The basic data types in python are -
 
 ```
 
-```python
-In [1]: import os
-   ...: 
-
-In [2]: >>> import os
-
-In [3]: print(os.getcwd())  # Returns current working directory
-/home/baijayanta
-
-In [4]: os.path.exists('file.txt')
-Out[4]: False
-
-In [5]:                                                                         
-Do you really want to exit ([y]/n)? y
-```
