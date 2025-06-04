@@ -1,0 +1,45 @@
+Python_Basics package
+======================
+
+Submodules
+----------
+
+Python_Basics.algebra module
+-----------------------------
+
+.. automodule:: Python_Basics.algebra
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Python_Basics.arithmetic module
+--------------------------------
+
+.. automodule:: Python_Basics.arithmetic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Python_Basics.mymath module
+----------------------------
+
+.. automodule:: Python_Basics.mymath
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Python_Basics.utils module
+---------------------------
+
+.. automodule:: Python_Basics.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: Python_Basics
+   :members:
+   :undoc-members:
+   :show-inheritance:
