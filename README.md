@@ -10,7 +10,8 @@ The basic data types in python are -
 
 ```python
 # basic data types
+def f(a):
+    return a**2
 
 ```
-  def f(a):
-    return a**2
+$  
