@@ -4,7 +4,14 @@ This repository guides some basic python and some more concepts
 
 
 # OS Module
-`Os` module in python makes the job easy for handling the file paths, changing path, making and removing the files and directories and more.
+The `os` module in Python provides a way to interact with the operating system — such as working with files, directories, environment variables, and running system commands.
+
+Here are the snippets to guide you through : 
+
+
+
+
+
 ## Data types and more
 The basic data types in python are - 
 - Integer
