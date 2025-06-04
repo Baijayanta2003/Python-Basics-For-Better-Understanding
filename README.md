@@ -87,7 +87,7 @@ print(os.path.splitext(path))  # ('/home/user/file', '.txt')
 ---
 
 ## See this terminal snippet to illustrate this in detail. 
-```bash
+```python
 (myenv) baijayanta:~$ ipython
 Python 3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]
 Type 'copyright', 'credits' or 'license' for more information
