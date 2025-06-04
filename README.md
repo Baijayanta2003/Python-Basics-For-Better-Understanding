@@ -86,6 +86,12 @@ print(os.path.splitext(path))  # ('/home/user/file', '.txt')
 
 ---
 
+## See this terminal snippet to illustrate this in detail. 
+```bash
+
+```
+
+---
 ## Data types and more
 The basic data types in python are - 
 - Integer
