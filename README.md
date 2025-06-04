@@ -12,3 +12,5 @@ The basic data types in python are -
 # basic data types
 
 ```
+  def f(a):
+    return a**2
