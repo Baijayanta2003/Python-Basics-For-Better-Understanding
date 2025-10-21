@@ -1,8 +1,5 @@
 # Python-Basics-For-Better-Understanding
-This repository guides some basic python and some more concepts
-
-
-Better 
+This repository guides some basic python and some more concepts so that you can understand it better. 
 # OS Module
 The `os` module in Python provides a way to interact with the operating system — such as working with files, directories, environment variables, and running system commands.
 
